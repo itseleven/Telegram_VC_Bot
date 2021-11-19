@@ -7,15 +7,15 @@ if HEROKU:
     from dotenv import load_dotenv
 
     load_dotenv()  # take environment variables from .env.
-    API_ID = int(environ["API_ID"])
-    API_HASH = environ["API_HASH"]
+    API_ID = int(environ["16184901"])
+    API_HASH = environ["fa54b34efb7d52516e8b5ae7f32ceb8d"]
     SESSION_STRING = environ[
-        "SESSION_STRING"
+        "AQDBEfR9tZBD3RVfCn-eJWHVLKJSY5pSe9etKKsBzueTzlLWqZcVIztmUEdCdgpYYDo2I45FJB-UEhjbbEdWfXYtii2lgzqGGKReXl9xMN4CwlVOnM9XS4bt4XfARnuIFvxUMjnqk29qtv4tgldglabU5N5i0PePXrQ3wWOUsmFP7SIGr2peYalVfO3bQJ9cFRW3oksPlHcjnctB3jBeOOgMS5g40epTbgYfGJWC1K2neDrgu-17G_7PpCM70dmwyYvlgQ5CRDep9J6XY6XlKPEVF3rGOckSdNAv5yScxVc5fR3RPv35dCohlCoHPakwklEd0AAZjzlJElQIWdZeYreye_qCUgA"
     ]  # Check Readme for session
-    ARQ_API_KEY = environ["ARQ_API_KEY"]
-    CHAT_ID = int(environ["CHAT_ID"])
-    DEFAULT_SERVICE = environ.get("DEFAULT_SERVICE") or "youtube"
-    BITRATE = int(environ["BITRATE"])
+    ARQ_API_KEY = environ["KOBZLP-NWVBHG-MBLNSC-PLJNMR-ARQ"]
+    CHAT_ID = int(environ["-1001439224033"])
+    DEFAULT_SERVICE = environ.get("saavn") or "youtube"
+    BITRATE = int(environ["512"])
 
 # NOTE Fill this if you are not deploying on heroku.
 if not HEROKU:
